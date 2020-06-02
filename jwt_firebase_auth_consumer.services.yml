@@ -1,0 +1,6 @@
+services:
+  jwt_firebase_auth_consumer.subscriber:
+    class: Drupal\jwt_firebase_auth_consumer\EventSubscriber\JwtFirebaseAuthConsumerSubscriber
+    arguments: [ '@entity_type.manager', '@config.factory' ]
+    tags:
+      - { name: event_subscriber }
