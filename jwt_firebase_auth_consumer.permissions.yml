@@ -1,0 +1,4 @@
+administer jwt firebase auth:
+  title: 'Administer JWT Firebase auth settings'
+  description: 'Provides access to the JWT Firebase auth administration pages.'
+  restrict access: TRUE

@@ -1,0 +1,5 @@
+jwt_firebase_auth_consumer.config_form:
+  title: 'JWT Firebase Auth settings'
+  route_name: jwt_firebase_auth_consumer.config_form
+  base_route: jwt_firebase_auth_consumer.config_form
+  weight: 0
