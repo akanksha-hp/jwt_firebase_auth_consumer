@@ -1,0 +1,6 @@
+status: true
+dependencies: {  }
+id: firebase_auth_user
+label: 'Firebase auth user'
+is_admin: null
+permissions: {  }
