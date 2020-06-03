@@ -1,0 +1,9 @@
+jwt_firebase_auth_consumer.config_form:
+  path: '/admin/config/system/jwt-firebase-auth'
+  defaults:
+    _form: '\Drupal\jwt_firebase_auth_consumer\Form\FirebaseAuthSettingsForm'
+    _title: 'JWT Firebase auth configuration'
+  requirements:
+    _permission: 'administer jwt firebase auth'
+  options:
+    _admin_route: TRUE
