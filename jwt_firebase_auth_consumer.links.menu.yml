@@ -3,4 +3,4 @@ jwt_firebase_auth_consumer.config_form:
   description: 'Configures the JWT Firebase Auth consumer module'
   route_name: jwt_firebase_auth_consumer.config_form
   parent: system.admin_config_system
-  weight: 99
+  weight: 999
